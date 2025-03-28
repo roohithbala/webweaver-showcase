@@ -1,5 +1,5 @@
 
-import { Code, Database, Server, Globe, Tool, Zap } from 'lucide-react';
+import { Code, Database, Server, Globe, Wrench, Zap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Skills = () => {
@@ -26,7 +26,7 @@ const Skills = () => {
     },
     {
       title: 'Tools & Deployment',
-      icon: <Tool className="h-6 w-6 text-primary" />,
+      icon: <Wrench className="h-6 w-6 text-primary" />,
       skills: ['Git', 'Docker', 'AWS S3', 'Cloudinary', 'Heroku']
     },
     {
