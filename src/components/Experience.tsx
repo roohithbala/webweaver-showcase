@@ -24,15 +24,6 @@ const Experience = () => {
       badges: ["Algorithm Design", "Problem Solving", "Competitive Programming"]
     },
     {
-      title: "Smart India Hackathon",
-      role: "Participant",
-      period: "2023",
-      description: "Participated in the national-level hackathon, developing innovative solutions for real-world problems. Worked in a team to create a web application addressing educational challenges.",
-      icon: <Star className="h-6 w-6 text-primary" />,
-      type: "achievement",
-      badges: ["Team Collaboration", "Rapid Prototyping", "Solution Design"]
-    },
-    {
       title: "Full Stack Development",
       role: "Personal Projects & Learning",
       period: "2021 - Present",
