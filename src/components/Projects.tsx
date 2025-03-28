@@ -1,5 +1,5 @@
 
-import { Github, ExternalLink, Book, ShieldCheck, PuzzlePiece } from 'lucide-react';
+import { Github, ExternalLink, Book, Star, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -22,7 +22,7 @@ const Projects = () => {
       description: 'A secure RBAC implementation that provides granular permission control for enterprise applications with audit logging and security measures.',
       image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600',
       tags: ['Python', 'Django', 'PostgreSQL', 'JWT', 'Security'],
-      icon: <ShieldCheck className="h-10 w-10 text-primary" />,
+      icon: <Briefcase className="h-10 w-10 text-primary" />,
       links: {
         github: '#',
         live: '#'
@@ -33,7 +33,7 @@ const Projects = () => {
       description: 'An intelligent search system that leverages NLP to understand user intent and provide relevant results across different data sources.',
       image: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600',
       tags: ['Python', 'NLP', 'Machine Learning', 'API', 'React'],
-      icon: <PuzzlePiece className="h-10 w-10 text-primary" />,
+      icon: <Star className="h-10 w-10 text-primary" />,
       status: 'In Progress',
       links: {
         github: '#'
