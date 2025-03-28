@@ -1,5 +1,5 @@
 
-import { Trophy, Briefcase, GraduationCap, Star, Book } from 'lucide-react';
+import { Trophy, Briefcase, GraduationCap, Star, Book, Award, Code, Users } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
@@ -15,6 +15,15 @@ const Experience = () => {
       badges: ["Current CGPA: 8.5/10", "Data Structures", "Algorithms", "Database Systems"]
     },
     {
+      title: "National Level Coding Competition",
+      role: "1st Prize Winner",
+      period: "2024",
+      description: "Secured first place in a prestigious national coding competition, demonstrating exceptional problem-solving skills and algorithmic thinking under time constraints.",
+      icon: <Award className="h-6 w-6 text-primary" />,
+      type: "achievement",
+      badges: ["Competitive Programming", "Algorithm Optimization", "Time Management"]
+    },
+    {
       title: "Envistas Coding Competition",
       role: "3rd Prize Winner",
       period: "2023",
@@ -24,6 +33,15 @@ const Experience = () => {
       badges: ["Algorithm Design", "Problem Solving", "Competitive Programming"]
     },
     {
+      title: "Open Source Contribution",
+      role: "Active Contributor",
+      period: "2022 - Present",
+      description: "Contributing to prominent open-source projects in the Python ecosystem. Implemented key features and fixed critical bugs that enhanced performance and security for thousands of users.",
+      icon: <Code className="h-6 w-6 text-primary" />,
+      type: "achievement",
+      badges: ["GitHub", "Code Review", "Bug Fixing", "Feature Development"]
+    },
+    {
       title: "Full Stack Development",
       role: "Personal Projects & Learning",
       period: "2021 - Present",
@@ -31,6 +49,15 @@ const Experience = () => {
       icon: <Briefcase className="h-6 w-6 text-primary" />,
       type: "experience",
       badges: ["Python", "Flask", "Django", "React", "PostgreSQL"]
+    },
+    {
+      title: "Student Developer Community",
+      role: "Technical Lead",
+      period: "2022 - Present",
+      description: "Leading a community of student developers, organizing workshops and hackathons to foster technical growth and collaboration. Mentored junior students in web development and programming fundamentals.",
+      icon: <Users className="h-6 w-6 text-primary" />,
+      type: "experience",
+      badges: ["Leadership", "Mentoring", "Event Organization", "Community Building"]
     },
     {
       title: "AI & Machine Learning",
